@@ -16,6 +16,7 @@ as Calcypher Community.
 ## Project Metadata
 
 - Website: https://triviatec.com
+- Contact: contact@triviatec.com
 - GitHub repository: https://github.com/abe-triviatec/opencalcypher
 - Topics: `fhe`, `homomorphic-encryption`, `openfhe`, `privacy`, `encryption`, `cryptography`, `cli`, `developer-tools`, `calcypher`, `triviatec`
 
