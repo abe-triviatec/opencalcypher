@@ -1,0 +1,11 @@
+Calcypher Community and OpenCalcypher public distributions
+Copyright 2026 TRIVIATEC SAS
+
+This product includes software developed by TRIVIATEC SAS.
+
+This product is designed to interoperate with fully homomorphic encryption
+software from the OpenFHE project. OpenFHE is distributed under the BSD
+2-Clause License and is credited in THIRD_PARTY_NOTICES.md.
+
+Calcypher and Triviatec are names used by TRIVIATEC SAS. This NOTICE file does
+not grant trademark rights.

@@ -1,0 +1,20 @@
+{
+  "thresholdExclusive": 90,
+  "generatedAt": "2026-06-03T16:02:02.485Z",
+  "communityRuntime": {
+    "lines": 100,
+    "branches": 100,
+    "functions": 100,
+    "statements": 100,
+    "cobertura": "community-runtime/coverage/cobertura-coverage.xml"
+  },
+  "opencalcypher": {
+    "lines": 96.75,
+    "branches": 92.96,
+    "calls": 77.55,
+    "report": "coverage/public-tools/opencalcypher/opencalcypher.cpp.gcov"
+  },
+  "combined": {
+    "lines": 98.38
+  }
+}

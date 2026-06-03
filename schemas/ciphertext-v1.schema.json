@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OpenCalcypher Ciphertext Artifact v1",
+  "type": "object",
+  "required": [
+    "format",
+    "scheme",
+    "contextHash",
+    "keyHash",
+    "encoding",
+    "ciphertextSha256",
+    "ciphertextBytes",
+    "ciphertext",
+    "plaintextIncluded"
+  ],
+  "properties": {
+    "format": { "const": "opencalcypher-ciphertext-v1" },
+    "scheme": { "enum": ["BFV", "BGV", "CKKS"] },
+    "contextHash": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+    "keyHash": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+    "encoding": { "enum": ["integer", "float", "vector"] },
+    "ciphertextSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "ciphertextBytes": { "type": "integer", "minimum": 1 },
+    "ciphertext": { "type": "string", "minLength": 1 },
+    "plaintextIncluded": { "const": false }
+  },
+  "additionalProperties": false
+}
