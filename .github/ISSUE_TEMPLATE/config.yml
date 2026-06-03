@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: mailto:contact@triviatec.com
+    about: Do not report vulnerabilities in public issues. Email Triviatec privately.
+  - name: Triviatec
+    url: https://triviatec.com
+    about: Product and company information.
+

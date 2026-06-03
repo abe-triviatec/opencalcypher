@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a reproducible OpenCalcypher issue.
+title: "[bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include secrets, generated private keys, real client data, or vulnerability details.
+        For suspected vulnerabilities, email contact@triviatec.com instead.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What failed?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction
+      description: Minimal commands or files using synthetic data only.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, compiler, OpenFHE version if known, commit SHA.
+    validations:
+      required: true
+
