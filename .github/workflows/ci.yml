@@ -12,11 +12,11 @@ jobs:
   smoke:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: "22"
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Check web helper syntax
@@ -24,7 +24,7 @@ jobs:
       - name: Check coverage gate
         run: node scripts/check-coverage.js
       - name: Upload coverage badges
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: coverage-badges
           path: coverage/badges/
